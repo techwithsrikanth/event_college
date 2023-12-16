@@ -1,0 +1,37 @@
+/* Define styles for the main container */
+.home-container {
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Adjust the height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Style for the content within the container */
+  .content {
+    text-align: center;
+  }
+  
+  /* Style for the buttons */
+  .participate-btn,
+  .organize-btn {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Specific styles for each button */
+  .participate-btn {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  .organize-btn {
+    background-color: #27ae60;
+    color: white;
+  }
+  

@@ -1,0 +1,22 @@
+/* Add your styles for EventsList here */
+.events-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* Add styles for container */
+  }
+  
+  .event-item {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    /* Add styles for each event item */
+  }
+  
+  .event-poster {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    /* Add styles for the event poster image */
+  }
+  
